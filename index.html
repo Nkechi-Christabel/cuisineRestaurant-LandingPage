@@ -1,0 +1,273 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Roboto+Condensed:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Cuisine Restaurant</title>
+  </head>
+  <body>
+    <header>
+     <div class="container header__innerContainer">
+       <div class="clearfix">
+      <div class="logo">
+       <a href="./index.html"><img src="./images/cuisine-logo.png" alt="Cuisine Restaurant Logo"></a> 
+      </div>
+     
+
+      <!-- Hamburger Menu -->
+      <label for="hamburger" class="hamburger-menu" >&#9776;</label>
+      <input type="checkbox" id="hamburger" class="checkbox" />
+
+      <span class="mobile-cart cart"><i class="fas fa-cart-arrow-down align"></i></i></span>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#"> Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#"> Menu</a></li>
+          <li><a href="#">Order Now</a></li>
+          <li><a href="#">Blob</a></li>
+          <li><a href="#">Location</a></li>
+        </ul>
+        <span class="bigScreen-cart cart"><i class="fas fa-cart-arrow-down align"></i></i></span>
+        <span class="search"><i class="fas fa-search align"></i></span>
+      </nav>
+    </div>
+      <section class="hero">
+        <div>
+          <h1><span class="welcome">Welcome</span>To Our Cuisine Restaurant</h1>
+          <div class="input-container">
+            <span><i class="fas fa-search search-icon"></i></span>
+            <input type="text" placeholder="Search here"  /><!-- 
+            --><label for="click"><span class="location align">Location  <i class="fas fa-caret-down align"></i></span></label>               
+            <input type="checkbox" id="click" class="clicked"> 
+                <ul class="dropdown">
+                  <li><a href="#">Lorem Ipsum</a></li> 
+                  <li><a href="#">Lorem Ipsum</a></li>
+                  <li><a href="#">Lorem Ipsum</a></li>
+                  <li><a href="#">Lorem Ipsum</a></li>
+                </ul>
+              </div>
+              <div class="socials">
+                <span><i class="fab fa-facebook-f"></i>252k</span>
+                <span><i class="fab fa-twitter"></i>62k</span>
+                <span><i class="fab fa-instagram"></i>55k</span>
+              </div>
+          </div>
+      </section>
+    </div>
+    </header>
+    <main>
+      <section class="aboutUs">
+        <div class="aboutUs__content">
+          <h3>About us</h3>
+          <h2>Discover Our Restaurant Story</h2>
+          <p>Cuisine is a team work of Cuisine Restaurant Cafe, we aim at promoting the foodstuff industry through the branches we estalish and through the new dishes, andintegrate between different cultures. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius minus dolore alias culpa placeat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vero modi velit</p>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vero modi velit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vero modi velit</p>
+          <button><a href="#menu">Discover Menu <i class="fas fa-arrow-right"></i></a></button>
+      </div>
+      </section>
+      <section class="menu" id="menu">
+        <div class="container">
+          <h3>Order Online Now</h3>
+          <h2>Our Specialty Cuisine</h2>
+          <ul>
+            <li><a href="">Breakfast</a></li>
+            <li><a href="">Lunch</a></li>
+            <li><a href="">Dinner</a></li>
+            <li><a href="">Dessert</a></li>
+            <li><a href="">Shake</a></li>
+            <hr>
+          </ul>
+         
+          <div class="dishes clearfix">
+            <div class="dishImg__container">
+              <img src="./images/image-3.1.jfif" alt="Vegetable salad with Mushrooms">
+              <div class="overlay">
+                <p>$14.99</p>
+                  <span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <p>Contadina</p>
+                  <span>Order Now</span>
+              </div>
+            </div>
+            <div class="dishImg__container">
+              <img src="./images/image-5.1.jfif" alt="Vegetable salad">
+              <div class="overlay">
+                <p>$14.99</p>
+                  <span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <p>Contadina</p>
+                  <span class="order">Order Now</span>
+              </div>
+            </div>
+            <div class="dishImg__container">
+              <img src="./images/image-2.1.jfif" alt="Bread, salad with Mushrooms">
+              <div class="overlay">
+                <p>$14.99</p>
+                  <span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <p>Contadina</p>
+                  <span>Order Now</span>
+              </div>
+            </div>
+            <div class="dishImg__container">
+              <img src="./images/image-4.1.jfif" alt="Toast with Egg">
+              <div class="overlay">
+                <p>$14.99</p>
+                  <span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <p>Contadina</p>
+                  <span>Order Now</span>
+              </div>
+            </div>
+            <div class="dishImg__container">
+              <img src="./images/image-3.1.jfif" alt="Vegetable salad with Mushrooms">
+              <div class="overlay">
+                <p>$14.99</p>
+                  <span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <p>Contadina</p>
+                  <span>Order Now</span>
+              </div>
+            </div>
+            <div class="dishImg__container">
+              <img src="./images/image-5.1.jfif" alt="Vegetable salad">
+              <div class="overlay">
+                <p>$14.99</p>
+                  <span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <p>Contadina</p>
+                  <span class="order">Order Now</span>
+              </div>
+            </div>
+            <div class="dishImg__container">
+              <img src="./images/image-2.1.jfif" alt="Bread, salad with Mushrooms">
+              <div class="overlay">
+                <p>$14.99</p>
+                  <span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <p>Contadina</p>
+                  <span>Order Now</span>
+              </div>
+            </div>
+            <div class="dishImg__container">
+              <img src="./images/image-4.1.jfif" alt="Toast with Egg">
+              <div class="overlay">
+                <p>$14.99</p>
+                  <span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <p>Contadina</p>
+                  <span>Order Now</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bookings">
+        <div class="container">
+          <h3>Book Table</h3>
+          <h2>Opening Hours</h2>
+          <img src="./images/call.png" alt="Call icon">
+          <p class="call-now">Call Now</p>
+          <p class="number">+12345 678 910</p>
+          <div class="daysTime__container clearfix">
+          <div class="daysTime">
+            <p>Monday to Tuesday</p>
+            <p class="time">09:00 am - 22:00 pm</p>
+          </div>
+          <div class="daysTime">
+            <p>Friday to Sunday</p>
+            <p class="time">11:00 am - 20:00 pm</p>
+          </div>
+        </div>
+          <div class="bookings__video">
+            <!-- <video controls class="video">
+
+              <source src="https://res.cloudinary.com/nkechi-christabel/video/upload/v1645055783/phodywdhf9sewr00gkvg.webm"
+                      type="video/webm">
+          
+              <source src="https://res.cloudinary.com/nkechi-christabel/video/upload/v1645055783/phodywdhf9sewr00gkvg.mp4"
+                      type="video/mp4">
+              <p>Your browser doesn't support HTML5 video. Here is
+                        a <a href="https://res.cloudinary.com/nkechi-christabel/video/upload/v1645055783/phodywdhf9sewr00gkvg.mp4">link to the video</a> instead.</p>
+                    
+          </video> -->
+            
+          </div>
+          <i class="fas fa-chevron-circle-left"></i>
+          <i class="fas fa-chevron-circle-right"></i>
+        </div>
+      </section>
+      <section class="review">
+        <div class="container">
+          <h3>Testimonials</h3>
+          <h2>Customer Say</h2>
+          <img src="./images/customer.png" alt="A customer" class="customer-img">
+          <p class="customer-name">Mr John Smith</p>
+          <p class="occupation">Art Director</p>
+          <span>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <p>Delicious boneless, skinless chicken breasts and fresh mushrooms in garlic and white wine sauce. Cuisine is a team work of cuisine Restaurant Cafe, we aim at promoting the foodstuff industry through the branches, we establish and through the new dishes.</p>
+        </div>
+      </section>
+    </main>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
